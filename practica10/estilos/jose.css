@@ -1,0 +1,96 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background: white;
+}
+
+.contenedor{
+	width: 80%;
+	margin: 0 auto;
+	border-radius: 30px;
+	background: white;
+
+}
+
+main .galeria .foto{
+	width: 300px;
+	height: 300px;
+	background: blue;
+	margin: 15px;	
+}
+/*Aqui pondremos las medidas de las fotos*/
+
+ main .foto img{
+ 	width: 100%;
+ 	object-fit: cover;
+
+ }
+
+main .galeria{
+	padding: 15px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+
+}
+
+/*aqui hare el header*/
+
+header{
+	background: white;
+
+ }
+ .presentacion .perfil{
+ 	width: 200px;
+ 	height: 200px;
+ 	background: silver;
+ 	border-radius: 100%;
+
+ }
+
+ .presentacion .perfil img{
+ 	width: 100%;
+ 	border-radius: 100%;
+
+ }
+
+ .presentacion .contacto{
+ 	background: white;
+ 	width: 60%;
+ 	margin: 10px;
+ 	padding: 15px;
+
+ }
+
+ .presentacion{
+ 	display: flex;
+ 	justify-content: space-evenly;
+ 	padding: 15px; 
+ 	flex-direction: column;
+ }
+
+ .botones{
+ 	margin-top: -10px;
+ 	display: block;
+ 	text-align: center;
+ 
+
+ }
+
+
+
+.botones a{
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+	background: #0095f5;
+	padding: 5px 15px;
+	border-radius: 5px;
+
+}
+
+

@@ -1,0 +1,59 @@
+body{background: url("../img/bananas.png"),red;
+font-family: verdana;	
+
+ }
+
+
+
+
+
+
+
+
+
+ div{background: red;
+ 	width:70%;
+ 	margin: 20px auto;
+ 	padding: 20px;
+ 	border-radius: 20px;
+ 	border: 15px solid gray ;
+ }
+ 
+ /*centrar titulo y justificar 
+ parrafos en cajaprincipal*/
+
+
+ .cajaprincipal h2{
+
+     text-align: center;
+ }
+
+
+
+
+
+
+.cajaprincipal p{
+	text-align: justify;
+ }
+
+
+
+ /*Centrar todo el texto de cajafinal*/
+
+
+ .cajafinal{
+ 	text-align: center;
+ }
+
+
+  div:hover{
+ 	background: orange;
+ 	margin: auto px;
+ 	color: darkblue;
+
+ }
+
+ 
+
+ 
